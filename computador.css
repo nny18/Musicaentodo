@@ -1,0 +1,17 @@
+body {
+    background-image: url("../assets/fondo ange.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bordes {
+  height: 1170px;
+  width:58px;
+  background-color: #420808e5;
+  transform: rotate(90deg);
+  position: absolute;
+  border-radius: 30px;
+  right: 48%;
+  top:5%;
+  
+}
