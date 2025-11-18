@@ -6,12 +6,120 @@ body {
 
 #bordes {
   height: 1170px;
-  width:58px;
+  width:92px;
   background-color: #420808e5;
   transform: rotate(90deg);
   position: absolute;
   border-radius: 30px;
+  border-style: solid;
+  border-color: rgba(240, 248, 255, 0.242);
   right: 48%;
   top:5%;
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+  height: 170vh;
   
+}
+#arriba {
+  height: 340px;
+  width:52px;
+  background-color: #000000e5;
+  transform: rotate(90deg);
+  position: absolute;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: rgba(240, 248, 255, 0.15);
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+  height: 3vh;
+}
+
+.uno {
+  position: absolute;
+  bottom: 60%;
+  right: 80%;
+  border-radius: 14px;
+  filter:drop-shadow(10px 8px 4px rgba(89, 85, 85, 0.409)); 
+}
+.billie {
+  color:aliceblue;
+  font-family: geneva;
+  position: absolute;
+  bottom: 58%;
+  left: 14.6%;
+  font-size: small;
+  text-decoration: none;
+}
+
+
+.dos {
+  position: absolute;
+  bottom: 56%;
+  right: 70%;
+  border-radius: 14px;
+  filter:drop-shadow(10px 8px 4px rgba(89, 85, 85, 0.508)); 
+}
+.maneskin {
+  color:aliceblue;
+  font-family: geneva;
+  position: absolute;
+  bottom: 54%;
+  left: 25.2%;
+  font-size: small;
+  text-decoration: none;
+
+}
+.tres {
+  position: absolute;
+  bottom: 66%;
+  right: 60%;
+  border-radius: 14px;
+  filter:drop-shadow(10px 8px 4px rgba(89, 85, 85, 0.243)); 
+}
+.solene{
+  color:aliceblue;
+  font-family: geneva;
+  position: absolute;
+  bottom: 64%;
+  left: 34.6%;
+  font-size: small;
+  text-decoration: none;
+}
+
+.cuatro {
+  position: absolute;
+  bottom: 62%;
+  right: 50%;
+  border-radius: 14px;
+  filter:drop-shadow(10px 8px 4px rgba(89, 85, 85, 0.263)); 
+}
+.maria {
+  color:aliceblue;
+  font-family: geneva;
+  position: absolute;
+  bottom: 60%;
+  left: 45.8%;
+  font-size: small;
+  text-decoration: none;
+}
+
+.cinco {
+  position: absolute;
+  bottom: 80%;
+  left: 10%;
+  border-radius: 14px;
+  filter:drop-shadow(10px 8px 4px rgba(89, 85, 85, 0.332)); 
+}
+.warning {
+  color:aliceblue;
+  font-family: geneva;
+  position: absolute;
+  bottom: 78%;
+  left: 8.9%;
+  font-size: small;
+  text-decoration: none;
 }
