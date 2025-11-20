@@ -5,37 +5,32 @@ body {
 }
 
 #bordes {
-  height: 1170px;
-  width:92px;
-  background-color: #420808e5;
-  transform: rotate(90deg);
-  position: absolute;
-  border-radius: 30px;
-  border-style: solid;
-  border-color: rgba(240, 248, 255, 0.242);
-  right: 48%;
-  top:5%;
-  display: flex;
-  flex-direction:row;
-  align-items: center;
-  justify-content: center;
-  height: 170vh;
+    height: 100px;
+    width: 600px;
+    background-color: #420808e5;
+    position: absolute;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: rgba(240, 248, 255, 0.242);
+    right: 40%;
+    bottom: 6%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
   
 }
 #arriba {
-  height: 340px;
-  width:52px;
+  height: 70px;
+  width:2550px;
   background-color: #000000e5;
-  transform: rotate(90deg);
   position: absolute;
-  border-radius: 20px;
+  border-radius: 10px;
   border-style: solid;
-  border-color: rgba(240, 248, 255, 0.15);
-  display: flex;
-  flex-direction:row;
-  align-items: center;
-  justify-content: center;
-  height: 3vh;
+  border-color: rgba(28, 29, 30, 0.856);
+  top:0.2%;
+  left: 0.1%;
+  height: 4.5vh;
 }
 
 .uno {
@@ -122,4 +117,36 @@ body {
   left: 8.9%;
   font-size: small;
   text-decoration: none;
+}
+.carpetat {
+  position: absolute;
+  bottom: 6.3%;
+  right: 49.5%;
+  border-radius: 14px;
+  filter:drop-shadow(10px 8px 4px rgba(89, 85, 85, 0.263)); 
+}
+.carpetad {
+  position: absolute;
+  bottom: 7.3%;
+  right: 43%;
+  border-radius: 14px;
+  filter:drop-shadow(10px 8px 4px rgba(89, 85, 85, 0.263)); 
+}
+.carpetau {
+  position: absolute;
+  bottom: 6.4%;
+  right: 58%;
+  border-radius: 14px;
+  filter:drop-shadow(10px 8px 4px rgba(89, 85, 85, 0.263)); 
+}
+
+#ventana {
+    width: 42vw;
+    height: 50vh;
+    position: absolute;
+    bottom: 30%;
+    right: 40%;
+    background: #420808f5;
+    display: none;
+    border-radius: 4%;
 }
