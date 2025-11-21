@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>La Música</title>
 
         <link rel="stylesheet" href="computador.css"/>
@@ -11,28 +13,40 @@
     <body>
         <h1 id="titulo"> </h1>
         <p id="textoInicial"></p>
-        <div id="bordes"></div>
-        <div id="arriba"></div>
-        <div class="albums">
-            <img class="uno" src="assets/billie.png" width="140px" height="">
-            <img class="dos" src="assets/maneskin.jpg" width="140px" height="">
-            <img class="tres" src="assets/solene.jpg" width="140px" height=""> 
-            <img class="cuatro" src="assets/maria.jpg" width="140px" height="">
-            <img class="cinco" src="assets/the warning.jpg" width="140px" height="">
-        </div>
-        <a class="billie" href="billie.html">dont smile at me.mp3</a>
-        <a class="maneskin" href="maneskin.html">teatro d'ira.mp3</a>
-        <a class="solene" href="solene.html">book of shadows.mp3</a>
-        <a class="maria" href="maria.html">animal.mp3</a>
-        <a class="warning" href="warning.html">queen of the murder scene.mp3</a>
 
-        <div class="inferior">
-            <img class="carpetat" src="assets/musicaa.png" width="125px" height="">
-            <img class="carpetad" src="assets/folder.png" width="80px" height="">
-            <img class="carpetau" src="assets/Papelera.png" width="80px" height="">
+        <div class="arriba">
+            <img class="album" id="uno" src="assets/billie.png" width="140px" height="">
+            <img class="album" id="dos" src="assets/maneskin.jpg" width="140px" height="">
+            <img class="album" id="tres"src="assets/solene.jpg" width="140px" height=""> 
+            <img class="album" id="cuatro" src="assets/maria.jpg" width="140px" height="">
+            <img class="album" id="cinco" src="assets/the warning.jpg" width="140px" height="">
         </div>
-        <a class="disco" href="musica.html">Música</a>
-        <button id="botond"><a href="assets/musicaa.png">Música</a></button>
+
+
+        <div class="iconos">
+
+        <a class="portadas" id="billie" href="billie.html">dont smile at me.mp3</a>
+        <a class="portadas" id="maneskin" href="maneskin.html">teatro d'ira.mp3</a>
+        <a class="portadas" id="solene" href="solene.html">book of shadows.mp3</a>
+        <a class="portadas" id="maria" href="maria.html">animal.mp3</a>
+        <a class="portadas" id="warning" href="warning.html">queen of the murder scene.mp3</a>
+
+        </div>
+
+
+
+
+        <div class="container">
+        <div class="inferior">
+            <img class="carpeta" id="disco" src="assets/musicaa.png" height="107px" width="">
+            <img class="carpeta" id="folder" src="assets/folder.png" height="100px" width="">
+            <img class="carpeta" id="papelera" src="assets/Papelera.png" height="100px" width="">
+        </div>            
+        </div>
+
+        <div class="inferiorr" id="bordes"></div>
+      
+
         
         <div id="ventana"> 
             <h2 id="tituloVentana"></h2>

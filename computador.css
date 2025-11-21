@@ -1,143 +1,162 @@
 body {
-    background-image: url("../assets/fondo ange.jpg");
+    background-image: url("../Musicaentodo/assets/fondoange.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 #bordes {
-    height: 100px;
-    width: 600px;
+    width: 40vw;
+    height: 10vh;
     background-color: #420808e5;
-    position: absolute;
     border-radius: 30px;
     border-style: solid;
     border-color: rgba(240, 248, 255, 0.242);
-    right: 40%;
-    bottom: 6%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
   
 }
-#arriba {
-  height: 70px;
-  width:2550px;
-  background-color: #000000e5;
-  position: absolute;
-  border-radius: 10px;
-  border-style: solid;
-  border-color: rgba(28, 29, 30, 0.856);
-  top:0.2%;
-  left: 0.1%;
-  height: 4.5vh;
+
+.inferior {
+  /*top: 82vh;
+  left: 30vw;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60vh;
+  z-index: 2;
 }
 
-.uno {
+.carpeta {
+
+  margin: 0 30px;
+  z-index: 2;
+}
+
+.inferiorr {
   position: absolute;
+  justify-content: center;
+  top: 86vh;
+  left: 30vw;
+  z-index:1;
+}
+
+
+
+/* primera parte*/
+.arriba {
+  /*top: 82vh;
+  left: 30vw;*/
+  display: flex;
+  justify-content:flex-start;
+  align-items:center;
+  margin-top: 25vh;
+}
+
+.album {
+
+  margin: 0 26px;
+
+}
+
+
+
+#uno {
+  position:absolute;
   bottom: 60%;
   right: 80%;
   border-radius: 14px;
-  filter:drop-shadow(10px 8px 4px rgba(89, 85, 85, 0.409)); 
+  filter:drop-shadow(10px 8px 4px rgba(89, 85, 85, 0.409));
 }
-.billie {
+#billie {
   color:aliceblue;
   font-family: geneva;
   position: absolute;
   bottom: 58%;
-  left: 14.6%;
+  left: 11.6%;
   font-size: small;
   text-decoration: none;
 }
 
 
-.dos {
+#dos {
   position: absolute;
   bottom: 56%;
   right: 70%;
   border-radius: 14px;
   filter:drop-shadow(10px 8px 4px rgba(89, 85, 85, 0.508)); 
 }
-.maneskin {
+#maneskin {
   color:aliceblue;
   font-family: geneva;
   position: absolute;
   bottom: 54%;
-  left: 25.2%;
+  left: 22.4%;
   font-size: small;
   text-decoration: none;
 
 }
-.tres {
+#tres {
   position: absolute;
   bottom: 66%;
   right: 60%;
   border-radius: 14px;
   filter:drop-shadow(10px 8px 4px rgba(89, 85, 85, 0.243)); 
 }
-.solene{
+#solene{
   color:aliceblue;
   font-family: geneva;
   position: absolute;
   bottom: 64%;
-  left: 34.6%;
+  left: 31.4%;
   font-size: small;
   text-decoration: none;
 }
 
-.cuatro {
+#cuatro {
   position: absolute;
   bottom: 62%;
   right: 50%;
   border-radius: 14px;
   filter:drop-shadow(10px 8px 4px rgba(89, 85, 85, 0.263)); 
 }
-.maria {
+#maria {
   color:aliceblue;
   font-family: geneva;
   position: absolute;
   bottom: 60%;
-  left: 45.8%;
+  left: 43.2%;
   font-size: small;
   text-decoration: none;
 }
 
-.cinco {
+#cinco {
   position: absolute;
   bottom: 80%;
   left: 10%;
   border-radius: 14px;
   filter:drop-shadow(10px 8px 4px rgba(89, 85, 85, 0.332)); 
 }
-.warning {
+#warning {
   color:aliceblue;
   font-family: geneva;
   position: absolute;
   bottom: 78%;
-  left: 8.9%;
+  left: 10.7%;
   font-size: small;
   text-decoration: none;
 }
-.carpetat {
-  position: absolute;
-  bottom: 6.3%;
-  right: 49.5%;
+
+
+/*segunda parte*/
+#disco {
   border-radius: 14px;
-  filter:drop-shadow(10px 8px 4px rgba(89, 85, 85, 0.263)); 
 }
-.carpetad {
-  position: absolute;
-  bottom: 7.3%;
-  right: 43%;
+
+#folder {
   border-radius: 14px;
-  filter:drop-shadow(10px 8px 4px rgba(89, 85, 85, 0.263)); 
 }
-.carpetau {
-  position: absolute;
-  bottom: 6.4%;
-  right: 58%;
+
+#papelera {
   border-radius: 14px;
-  filter:drop-shadow(10px 8px 4px rgba(89, 85, 85, 0.263)); 
 }
 
 #ventana {
