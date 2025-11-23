@@ -1,8 +1,80 @@
 body {
-    background-image: url("../Musicaentodo/assets/fondoange.jpg");
+    background-image: url("../assets/fondoange.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+
+#discom {
+  font-size: 0.9em;
+  font-family: sans-serif;
+  font-weight: 100;
+  background-color: transparent;
+  margin-bottom: none;
+  border-style:none;
+  border-color:none;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: absolute;
+  bottom: 7.1%;
+  left: 33.3%;
+  transform: rotate(-90deg);
+  z-index: 2;
+}
+
+a:link{
+    text-decoration: none;
+    display:inline-block;
+    color: white;
+}
+
+#folderm {
+  font-size: 0.7em;
+  font-family: sans-serif;
+  font-weight: 100;
+  background-color: transparent;
+  margin-bottom: none;
+  border-style:none;
+  border-color:none;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: absolute;
+  bottom: 7.5%;
+  left: 45.3%;
+  transform: rotate(-90deg);
+  z-index: 2;
+}
+
+a:link{
+    text-decoration: none;
+    display:inline-block;
+    color: white;
+}
+
+#papeleram {
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 100;
+  background-color: transparent;
+  margin-bottom: none;
+  border-style:none;
+  border-color:none;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: absolute;
+  bottom: 7.1%;
+  left: 57.2%;
+  transform: rotate(-90deg);
+  z-index: 2;
+}
+
+a:link{
+    text-decoration: none;
+    display:inline-block;
+    color: white;
 }
 
 #bordes {
@@ -12,6 +84,7 @@ body {
     border-radius: 30px;
     border-style: solid;
     border-color: rgba(240, 248, 255, 0.242);
+    z-index: 1;
   
 }
 
@@ -159,13 +232,1229 @@ body {
   border-radius: 14px;
 }
 
+/*tercera parte*/
+
+
 #ventana {
-    width: 42vw;
-    height: 50vh;
+    width: 58vw;
+    height: 67vh;
     position: absolute;
     bottom: 30%;
     right: 40%;
     background: #420808f5;
     display: none;
     border-radius: 4%;
+    overflow: hidden;
+}
+
+
+
+#borde{
+  width: 100%;
+  height: 10%;
+  background-color: rgb(65, 13, 13);
+  position: absolute;
+  top: 0.1%;
+}
+
+#circulo{
+  width:3.4%;
+  height: 5%;
+  background-color: rgb(109, 12, 12);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 92.5%;
+  right: 92%;
+}
+
+#circudos{
+  width:3.4%;
+  height:5%;
+  background-color: rgb(196, 196, 49);
+  border-radius: 50%;
+  position:absolute;
+  bottom: 92.5%;
+  right: 87%;
+}
+
+#circutres{
+  width: 3.4%;
+  height:5%;
+  background-color: rgb(22, 122, 22);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 92.5%;
+  right: 81.6%;
+}
+
+#lateral{
+  width: 16%;
+  height: 100%;
+  background-color: rgba(58, 30, 30, 0.897);
+  position: absolute;
+  top:0.1%;
+  border-bottom-left-radius: 4%;
+  
+
+}
+
+#bordebuscador{
+  width:89%;
+  height:10%;
+  background-color:rgba(58, 30, 30, 0.897);
+  position:absolute;
+  top: 10%;
+  left: 15.8%;
+}
+
+#buscador {
+  width: 40%;
+  height: 4.6%;
+  border-radius:20px;
+  background-color:rgba(92, 49, 49, 0.979);
+  position:absolute;
+  top:13%;
+  left: 33%; 
+}
+
+h2{
+  font-size: 0.8em;
+  font-family: lucida serif;
+  color: white;
+  position:absolute;
+  top: 11%;
+  left: 6%;
+}
+
+#buno{
+  width: 10%;
+  height: auto;
+  border-radius: 9%;
+  position:absolute;
+  top: 26%;
+  left: 21%;
+}
+
+#titulobuno{
+  font-size: 0.7em;
+  font-family: lucida serif;
+  font-weight: 100;
+  position:absolute;
+  top: 41%;
+  left: 23%;
+  color: white;
+}
+
+#bdos{
+  width: 10%;
+  height: auto;
+  border-radius: 9%;
+  position:absolute;
+  top: 26%;
+  left: 36.4%;
+}
+#titulobdos{
+  font-size: 0.7em;
+  font-family: lucida serif;
+  font-weight: 100;
+  position:absolute;
+  top: 41%;
+  left: 36.3%;
+  color: white;
+}
+
+#btres{
+  width: 10%;
+  height: auto;
+  border-radius: 9%;
+  position:absolute;
+  top: 26%;
+  left: 51.8%;
+}
+#titulobtres{
+  font-size: 0.7em;
+  font-family: lucida serif;
+  font-weight: 100;
+  position:absolute;
+  top: 40.5%;
+  left: 54.3%;
+  color: white;
+}
+
+#bcuatro{
+  width: 10%;
+  height: auto;
+  border-radius: 9%;
+  position:absolute;
+  top: 26%;
+  left: 67.4%;
+}
+#titulobcuatro{
+  font-size: 0.7em;
+  font-family: lucida serif;
+  font-weight: 100;
+  position:absolute;
+  top: 39%;
+  left: 70%;
+  color: white;
+}
+
+#bcinco{
+  width: 10%;
+  height: auto;
+  border-radius: 9%;
+  position:absolute;
+  top: 26%;
+  left: 84%;
+}
+
+#titulobcinco{
+  font-size: 0.7em;
+  font-family: lucida serif;
+  font-weight: 100;
+  position:absolute;
+  top: 43.9%;
+  left: 85%;
+  color: white;
+}
+
+#bseis{
+  width: 10%;
+  height: auto;
+  border-radius: 9%;
+  position:absolute;
+  top: 61%;
+  left: 28%;
+}
+
+#titulobseis{
+  font-size: 0.7em;
+  font-family: lucida serif;
+  font-weight: 100;
+  position:absolute;
+  top: 79.7%;
+  left: 29.4%;
+  color: white;
+}
+
+#bsiete{
+  width: 10%;
+  height: auto;
+  border-radius: 9%;
+  position:absolute;
+  top: 61%;
+  left: 44%;
+}
+
+#titulobsiete{
+  font-size: 0.7em;
+  font-family: lucida serif;
+  font-weight: 100;
+  position:absolute;
+  top: 79.7%;
+  left: 44.6%;
+  color: white;
+}
+
+#bocho{
+  width: 10%;
+  height: auto;
+  border-radius: 9%;
+  position:absolute;
+  top: 61%;
+  left: 60.2%;
+}
+
+#titulobocho{
+  font-size: 0.7em;
+  font-family: lucida serif;
+  font-weight: 100;
+  position:absolute;
+  top: 79.7%;
+  left: 62.4%;
+  color: white;
+}
+
+#bnueve{
+  width: 10%;
+  height: auto;
+  border-radius: 9%;
+  position:absolute;
+  top: 61%;
+  left: 76.2%;
+}
+
+#titulobnueve{
+  font-size: 0.7em;
+  font-family: lucida serif;
+  font-weight: 100;
+  position:absolute;
+  top: 79.7%;
+  left: 79.3%;
+  color: white;
+}
+/*segunda ventana*/
+
+#ventanad {
+    width: 58vw;
+    height: 67vh;
+    position: absolute;
+    bottom: 30%;
+    left: 34%;
+    background: #124208f5;
+    display: none;
+    border-radius: 4%;
+    overflow: hidden;
+}
+
+
+
+#borded{
+  width: 100%;
+  height: 10%;
+  background-color: rgb(34, 65, 13);
+  position: absolute;
+  top: 0.1%;
+}
+
+#circulod{
+  width:3.4%;
+  height: 5%;
+  background-color: rgb(109, 12, 12);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 92.5%;
+  right: 92%;
+}
+
+#circudosd{
+  width:3.4%;
+  height:5%;
+  background-color: rgb(196, 196, 49);
+  border-radius: 50%;
+  position:absolute;
+  bottom: 92.5%;
+  right: 87%;
+}
+
+#circutresd{
+  width: 3.4%;
+  height:5%;
+  background-color: rgb(22, 122, 22);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 92.5%;
+  right: 81.6%;
+}
+
+#laterald{
+  width: 16%;
+  height: 100%;
+  background-color: rgba(38, 58, 30, 0.897);
+  position: absolute;
+  top:0.1%;
+  border-bottom-left-radius: 4%;
+  
+
+}
+
+#bordebuscadord{
+  width:89%;
+  height:10%;
+  background-color:rgba(38, 58, 30, 0.897);
+  position:absolute;
+  top: 10%;
+  left: 15.8%;
+}
+
+#buscadord {
+  width: 40%;
+  height: 4.6%;
+  border-radius:20px;
+  background-color:rgba(63, 92, 49, 0.979);
+  position:absolute;
+  top:13%;
+  left: 33%; 
+}
+
+h2{
+  font-size: 0.8em;
+  font-family: lucida serif;
+  color: white;
+  position:absolute;
+  top: 11%;
+  left: 6%;
+}
+
+#muno{
+  width: 10%;
+  height: auto;
+  border-radius: 9%;
+  position:absolute;
+  top: 26%;
+  left: 21%;
+}
+
+#titulomuno{
+  font-size: 0.7em;
+  font-family: lucida serif;
+  font-weight: 100;
+  position:absolute;
+  top: 41%;
+  left: 21.7%;
+  color: white;
+}
+
+#mdos{
+  width: 10%;
+  height: auto;
+  border-radius: 9%;
+  position:absolute;
+  top: 26%;
+  left: 36.4%;
+}
+#titulomdos{
+  font-size: 0.7em;
+  font-family: lucida serif;
+  font-weight: 100;
+  position:absolute;
+  top: 41%;
+  left: 38.8%;
+  color: white;
+}
+
+#mtres{
+  width: 10%;
+  height: auto;
+  border-radius: 9%;
+  position:absolute;
+  top: 26%;
+  left: 51.8%;
+}
+#titulomtres{
+  font-size: 0.7em;
+  font-family: lucida serif;
+  font-weight: 100;
+  position:absolute;
+  top: 40.5%;
+  left: 51.6%;
+  color: white;
+}
+
+#mcuatro{
+  width: 10%;
+  height: auto;
+  border-radius: 9%;
+  position:absolute;
+  top: 26%;
+  left: 66.4%;
+}
+#titulomcuatro{
+  font-size: 0.7em;
+  font-family: lucida serif;
+  font-weight: 100;
+  position:absolute;
+  top: 39%;
+  left: 68.8%;
+  color: white;
+}
+
+#mcinco{
+  width: 10%;
+  height: auto;
+  border-radius: 9%;
+  position:absolute;
+  top: 26%;
+  left: 82%;
+}
+
+#titulomcinco{
+  font-size: 0.7em;
+  font-family: lucida serif;
+  font-weight: 100;
+  position:absolute;
+  top: 43.9%;
+  left: 81%;
+  color: white;
+}
+
+#mseis{
+  width: 10%;
+  height: auto;
+  border-radius: 9%;
+  position:absolute;
+  top: 61%;
+  left: 35%;
+}
+
+#titulomseis{
+  font-size: 0.7em;
+  font-family: lucida serif;
+  font-weight: 100;
+  position:absolute;
+  top: 79.7%;
+  left: 35.4%;
+  color: white;
+}
+
+#msiete{
+  width: 10%;
+  height: auto;
+  border-radius: 9%;
+  position:absolute;
+  top: 61%;
+  left: 52%;
+}
+
+#titulomsiete{
+  font-size: 0.7em;
+  font-family: lucida serif;
+  font-weight: 100;
+  position:absolute;
+  top: 79.7%;
+  left: 54.6%;
+  color: white;
+}
+
+#mocho{
+  width: 10%;
+  height: auto;
+  border-radius: 9%;
+  position:absolute;
+  top: 61%;
+  left: 69.7%;
+}
+
+#titulomocho{
+  font-size: 0.7em;
+  font-family: lucida serif;
+  font-weight: 100;
+  position:absolute;
+  top: 79.7%;
+  left: 71.5%;
+  color: white;
+}
+
+/*tercera ventana*/
+
+#ventanat {
+    width: 58vw;
+    height: 67vh;
+    position: absolute;
+    bottom: 26%;
+    left: 23%;
+    background: #082642f5;
+    display: none;
+    border-radius: 4%;
+    overflow: hidden;
+}
+
+
+
+#bordet{
+  width: 100%;
+  height: 10%;
+  background-color: #082142f5;
+  position: absolute;
+  top: 0.1%;
+}
+
+#circulot{
+  width:3.4%;
+  height: 5%;
+  background-color: rgb(109, 12, 12);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 92.5%;
+  right: 92%;
+}
+
+#circudost{
+  width:3.4%;
+  height:5%;
+  background-color: rgb(196, 196, 49);
+  border-radius: 50%;
+  position:absolute;
+  bottom: 92.5%;
+  right: 87%;
+}
+
+#circutrest{
+  width: 3.4%;
+  height:5%;
+  background-color: rgb(22, 122, 22);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 92.5%;
+  right: 81.6%;
+}
+
+#lateralt{
+  width: 16%;
+  height: 100%;
+  background-color: rgba(30, 47, 58, 0.897);
+  position: absolute;
+  top:0.1%;
+  border-bottom-left-radius: 4%;
+  
+
+}
+
+#bordebuscadort{
+  width:89%;
+  height:10%;
+  background-color:rgba(30, 47, 58, 0.897);
+  position:absolute;
+  top: 10%;
+  left: 15.8%;
+}
+
+#buscadort {
+  width: 40%;
+  height: 4.6%;
+  border-radius:20px;
+  background-color:rgba(49, 69, 92, 0.979);
+  position:absolute;
+  top:13%;
+  left: 33%; 
+}
+
+h2{
+  font-size: 0.8em;
+  font-family: lucida serif;
+  color: white;
+  position:absolute;
+  top: 11%;
+  left: 6%;
+}
+
+#suno{
+  width: 10%;
+  height: auto;
+  border-radius: 9%;
+  position:absolute;
+  top: 26%;
+  left: 21%;
+}
+
+#titulosuno{
+  font-size: 0.7em;
+  font-family: lucida serif;
+  font-weight: 100;
+  position:absolute;
+  top: 41%;
+  left: 21.7%;
+  color: white;
+}
+
+#sdos{
+  width: 10%;
+  height: auto;
+  border-radius: 9%;
+  position:absolute;
+  top: 63%;
+  left: 36.4%;
+}
+#titulosdos{
+  font-size: 0.7em;
+  font-family: lucida serif;
+  font-weight: 100;
+  position:absolute;
+  top: 78.5%;
+  left: 37.4%;
+  color: white;
+}
+
+#stres{
+  width: 10%;
+  height: auto;
+  border-radius: 9%;
+  position:absolute;
+  top: 26%;
+  left: 51.8%;
+}
+#titulostres{
+  font-size: 0.7em;
+  font-family: lucida serif;
+  font-weight: 100;
+  position:absolute;
+  top: 40.5%;
+  left: 51.6%;
+  color: white;
+}
+
+#scuatro{
+  width: 10%;
+  height: auto;
+  border-radius: 9%;
+  position:absolute;
+  top: 63%;
+  left: 66.4%;
+}
+#tituloscuatro{
+  font-size: 0.7em;
+  font-family: lucida serif;
+  font-weight: 100;
+  position:absolute;
+  top: 76.5%;
+  left: 67.8%;
+  color: white;
+}
+
+#scinco{
+  width: 10%;
+  height: auto;
+  border-radius: 9%;
+  position:absolute;
+  top: 26%;
+  left: 82%;
+}
+
+#tituloscinco{
+  font-size: 0.7em;
+  font-family: lucida serif;
+  font-weight: 100;
+  position:absolute;
+  top: 43.9%;
+  left: 81%;
+  color: white;
+}
+
+/*cuarta*/
+
+#ventanac {
+    width: 58vw;
+    height: 67vh;
+    position: absolute;
+    bottom: 18%;
+    left: 23%;
+    background: #320842f5;
+    display: none;
+    border-radius: 4%;
+    overflow: hidden;
+}
+
+
+
+#bordec{
+  width: 100%;
+  height: 10%;
+  background-color: #320842f5;
+  position: absolute;
+  top: 0.1%;
+}
+
+#circuloc{
+  width:3.4%;
+  height: 5%;
+  background-color: rgb(109, 12, 12);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 92.5%;
+  right: 92%;
+}
+
+#circudosc{
+  width:3.4%;
+  height:5%;
+  background-color: rgb(196, 196, 49);
+  border-radius: 50%;
+  position:absolute;
+  bottom: 92.5%;
+  right: 87%;
+}
+
+#circutresc{
+  width: 3.4%;
+  height:5%;
+  background-color: rgb(22, 122, 22);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 92.5%;
+  right: 81.6%;
+}
+
+#lateralc{
+  width: 16%;
+  height: 100%;
+  background-color: rgba(47, 30, 58, 0.897);
+  position: absolute;
+  top:0.1%;
+  border-bottom-left-radius: 4%;
+  
+
+}
+
+#bordebuscadorc{
+  width:89%;
+  height:10%;
+  background-color:rgba(47, 30, 58, 0.897);
+  position:absolute;
+  top: 10%;
+  left: 15.8%;
+}
+
+#buscadorc {
+  width: 40%;
+  height: 4.6%;
+  border-radius:20px;
+  background-color:rgba(82, 49, 92, 0.979);
+  position:absolute;
+  top:13%;
+  left: 33%; 
+}
+
+h2{
+  font-size: 0.8em;
+  font-family: lucida serif;
+  color: white;
+  position:absolute;
+  top: 11%;
+  left: 6%;
+}
+
+#mbuno{
+  width: 10%;
+  height: auto;
+  border-radius: 9%;
+  position:absolute;
+  top: 26%;
+  left: 21%;
+}
+
+#titulombuno{
+  font-size: 0.7em;
+  font-family: lucida serif;
+  font-weight: 100;
+  position:absolute;
+  top: 41%;
+  left: 21.7%;
+  color: white;
+}
+
+#mbdos{
+  width: 10%;
+  height: auto;
+  border-radius: 9%;
+  position:absolute;
+  top: 26%;
+  left: 36.4%;
+}
+#titulombdos{
+  font-size: 0.7em;
+  font-family: lucida serif;
+  font-weight: 100;
+  position:absolute;
+  top: 41%;
+  left: 38.8%;
+  color: white;
+}
+
+#mbtres{
+  width: 10%;
+  height: auto;
+  border-radius: 9%;
+  position:absolute;
+  top: 26%;
+  left: 51.8%;
+}
+#titulombtres{
+  font-size: 0.7em;
+  font-family: lucida serif;
+  font-weight: 100;
+  position:absolute;
+  top: 40.5%;
+  left: 51.6%;
+  color: white;
+}
+
+#mbcuatro{
+  width: 10%;
+  height: auto;
+  border-radius: 9%;
+  position:absolute;
+  top: 26%;
+  left: 66.4%;
+}
+#titulombcuatro{
+  font-size: 0.7em;
+  font-family: lucida serif;
+  font-weight: 100;
+  position:absolute;
+  top: 39%;
+  left: 68.8%;
+  color: white;
+}
+
+#mbcinco{
+  width: 10%;
+  height: auto;
+  border-radius: 9%;
+  position:absolute;
+  top: 26%;
+  left: 82%;
+}
+
+#titulombcinco{
+  font-size: 0.7em;
+  font-family: lucida serif;
+  font-weight: 100;
+  position:absolute;
+  top: 43.9%;
+  left: 81%;
+  color: white;
+}
+
+#mbseis{
+  width: 10%;
+  height: auto;
+  border-radius: 9%;
+  position:absolute;
+  top: 61%;
+  left: 35%;
+}
+
+#titulombseis{
+  font-size: 0.7em;
+  font-family: lucida serif;
+  font-weight: 100;
+  position:absolute;
+  top: 79.7%;
+  left: 35.4%;
+  color: white;
+}
+
+#mbsiete{
+  width: 10%;
+  height: auto;
+  border-radius: 9%;
+  position:absolute;
+  top: 61%;
+  left: 52%;
+}
+
+#titulombsiete{
+  font-size: 0.7em;
+  font-family: lucida serif;
+  font-weight: 100;
+  position:absolute;
+  top: 79.7%;
+  left: 54.6%;
+  color: white;
+}
+
+#mbocho{
+  width: 10%;
+  height: auto;
+  border-radius: 9%;
+  position:absolute;
+  top: 61%;
+  left: 69.7%;
+}
+
+#titulombocho{
+  font-size: 0.7em;
+  font-family: lucida serif;
+  font-weight: 100;
+  position:absolute;
+  top: 79.7%;
+  left: 71.5%;
+  color: white;
+}
+
+#mbnueve{
+  width: 10%;
+  height: auto;
+  border-radius: 9%;
+  position:absolute;
+  top: 61%;
+  left: 19%;
+}
+
+#titulombnueve{
+  font-size: 0.7em;
+  font-family: lucida serif;
+  font-weight: 100;
+  position:absolute;
+  top: 79.7%;
+  left: 21.4%;
+  color: white;
+}
+
+
+/*quinta*/
+
+#ventanaq {
+    width: 58vw;
+    height: 67vh;
+    position: absolute;
+    top: 3%;
+    right: 39%;
+    background: #422908f5;
+    display: none;
+    border-radius: 4%;
+    overflow: hidden;
+}
+
+
+
+#bordeq{
+  width: 100%;
+  height: 10%;
+  background-color: #422908f5;
+  position: absolute;
+  top: 0.1%;
+}
+
+#circuloq{
+  width:3.4%;
+  height: 5%;
+  background-color: rgb(109, 12, 12);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 92.5%;
+  right: 92%;
+}
+
+#circudosq{
+  width:3.4%;
+  height:5%;
+  background-color: rgb(196, 196, 49);
+  border-radius: 50%;
+  position:absolute;
+  bottom: 92.5%;
+  right: 87%;
+}
+
+#circutresq{
+  width: 3.4%;
+  height:5%;
+  background-color: rgb(22, 122, 22);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 92.5%;
+  right: 81.6%;
+}
+
+#lateralq{
+  width: 16%;
+  height: 100%;
+  background-color: rgba(58, 45, 30, 0.897);
+  position: absolute;
+  top:0.1%;
+  border-bottom-left-radius: 4%;
+  
+
+}
+
+#bordebuscadorq{
+  width:89%;
+  height:10%;
+  background-color:rgba(58, 45, 30, 0.897);
+  position:absolute;
+  top: 10%;
+  left: 15.8%;
+}
+
+#buscadorq {
+  width: 40%;
+  height: 4.6%;
+  border-radius:20px;
+  background-color:rgba(92, 73, 49, 0.979);
+  position:absolute;
+  top:13%;
+  left: 33%; 
+}
+
+h2{
+  font-size: 0.8em;
+  font-family: lucida serif;
+  color: white;
+  position:absolute;
+  top: 11%;
+  left: 6%;
+}
+
+
+#wuno{
+  width: 10%;
+  height: auto;
+  border-radius: 9%;
+  position:absolute;
+  top: 26%;
+  left: 21%;
+}
+
+#titulowuno{
+  font-size: 0.7em;
+  font-family: lucida serif;
+  font-weight: 100;
+  position:absolute;
+  top: 41%;
+  left: 21.7%;
+  color: white;
+}
+
+#wdos{
+  width: 10%;
+  height: auto;
+  border-radius: 9%;
+  position:absolute;
+  top: 26%;
+  left: 36.4%;
+}
+#titulowdos{
+  font-size: 0.7em;
+  font-family: lucida serif;
+  font-weight: 100;
+  position:absolute;
+  top: 41%;
+  left: 38.8%;
+  color: white;
+}
+
+#wtres{
+  width: 10%;
+  height: auto;
+  border-radius: 9%;
+  position:absolute;
+  top: 26%;
+  left: 51.8%;
+}
+#titulowtres{
+  font-size: 0.7em;
+  font-family: lucida serif;
+  font-weight: 100;
+  position:absolute;
+  top: 40.5%;
+  left: 51.6%;
+  color: white;
+}
+
+#wcuatro{
+  width: 10%;
+  height: auto;
+  border-radius: 9%;
+  position:absolute;
+  top: 26%;
+  left: 66.4%;
+}
+#titulowcuatro{
+  font-size: 0.7em;
+  font-family: lucida serif;
+  font-weight: 100;
+  position:absolute;
+  top: 39%;
+  left: 68.8%;
+  color: white;
+}
+
+#wcinco{
+  width: 10%;
+  height: auto;
+  border-radius: 9%;
+  position:absolute;
+  top: 26%;
+  left: 82%;
+}
+
+#titulowcinco{
+  font-size: 0.7em;
+  font-family: lucida serif;
+  font-weight: 100;
+  position:absolute;
+  top: 43.9%;
+  left: 81%;
+  color: white;
+}
+
+#wseis{
+  width: 10%;
+  height: auto;
+  border-radius: 9%;
+  position:absolute;
+  top: 61%;
+  left: 35%;
+}
+
+#titulowseis{
+  font-size: 0.7em;
+  font-family: lucida serif;
+  font-weight: 100;
+  position:absolute;
+  top: 79.7%;
+  left: 35.4%;
+  color: white;
+}
+
+#wsiete{
+  width: 10%;
+  height: auto;
+  border-radius: 9%;
+  position:absolute;
+  top: 61%;
+  left: 52%;
+}
+
+#titulowsiete{
+  font-size: 0.7em;
+  font-family: lucida serif;
+  font-weight: 100;
+  position:absolute;
+  top: 79.7%;
+  left: 54.6%;
+  color: white;
+}
+
+#wocho{
+  width: 10%;
+  height: auto;
+  border-radius: 9%;
+  position:absolute;
+  top: 61%;
+  left: 69.7%;
+}
+
+#titulowocho{
+  font-size: 0.7em;
+  font-family: lucida serif;
+  font-weight: 100;
+  position:absolute;
+  top: 79.7%;
+  left: 71.5%;
+  color: white;
+}
+
+#wnueve{
+  width: 10%;
+  height: auto;
+  border-radius: 9%;
+  position:absolute;
+  top: 61%;
+  left: 19%;
+}
+
+#titulownueve{
+  font-size: 0.7em;
+  font-family: lucida serif;
+  font-weight: 100;
+  position:absolute;
+  top: 79.7%;
+  left: 21.4%;
+  color: white;
+}
+
+/* inferior*/
+
+
+#ventan{
+    width: 58vw;
+    height: 67vh;
+    position: absolute;
+    top: 3%;
+    right: 39%;
+    background: #422908f5;
+    display: none;
+    border-radius: 4%;
+    overflow: hidden;
 }
