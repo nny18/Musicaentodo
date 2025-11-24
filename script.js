@@ -25,6 +25,32 @@ document.body.addEventListener('click', (evento) => {
     }
 });
 
+const buno = document.querySelector("#buno");
+const bdos = document.querySelector("#bdos");
+const btres = document.querySelector("#btres");
+const bcuatro = document.querySelector("#bcuatro");
+
+const pestaña = document.getElementById("pestaña");
+const titupesta = document.getElementById("titupesta");
+
+let pestañabierta = false;
+
+buno.addEventListener('click', (elemento) => {
+    elemento.stopPropagation();
+    titupesta.innerText = "Copycat";
+    pestaña.style.display = "block";
+    pestañabierta = true;
+});
+
+document.body.addEventListener('click', (evento) => {
+    if(!pestañabierta) return;
+    if(!pestaña.contains(evento.target)) {
+        pestaña.style.display = "none";
+        pestañabierta = false;
+    }
+});
+
+
 /*segunda ventana*/
 const ventanad = document.getElementById("ventanad");
 const tituloVentanad = document.getElementById("tituloVentanad");
