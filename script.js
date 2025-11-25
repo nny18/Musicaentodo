@@ -198,6 +198,9 @@ document.body.addEventListener('click', (evento) => {
 
 
 
+
+
+
 /*segunda ventana*/
 const ventanad = document.getElementById("ventanad");
 const tituloVentanad = document.getElementById("tituloVentanad");
@@ -215,6 +218,34 @@ document.body.addEventListener('click', (evento) => {
     if(!ventanad.contains(evento.target)) {
         ventanad.style.display = "none";
         ventanabiertad = false;
+    }
+});
+
+const muno = document.querySelector("#muno");
+const mdos = document.querySelector("#mdos");
+const mtres = document.querySelector("#mtres");
+const mcuatro = document.querySelector("#mcuatro");
+const mcinco = document.querySelector("#mcinco");
+const mseis = document.querySelector("#mseis");
+const mocho = document.querySelector("#mocho");
+
+const pestañam = document.getElementById("pestañam");
+const titupestam = document.getElementById("titupestam");
+
+let pestañabiertam = false;
+
+muno.addEventListener('click', (elemento) => {
+    elemento.stopPropagation();
+    titupestam.innerText = "Zitti e buoni";
+    pestañam.style.display = "block";
+    pestañabiertam = true;
+});
+
+document.body.addEventListener('click', (evento) => {
+    if(!pestañabiertam) return;
+    if(!pestañam.contains(evento.target)) {
+        pestañam.style.display = "none";
+        pestañabiertam = false;
     }
 });
 

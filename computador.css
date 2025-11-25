@@ -1,5 +1,5 @@
 body {
-    background-image: url("../Musicaentodo/assets/fondoange.jpg");
+    background-image: url("../assets/fondoange.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -1013,175 +1013,6 @@ h2{
   left: 6%;
 }
 
-#mbuno{
-  width: 10%;
-  height: auto;
-  border-radius: 9%;
-  position:absolute;
-  top: 26%;
-  left: 21%;
-}
-
-#titulombuno{
-  font-size: 0.7em;
-  font-family: lucida serif;
-  font-weight: 100;
-  position:absolute;
-  top: 41%;
-  left: 21.7%;
-  color: white;
-}
-
-#mbdos{
-  width: 10%;
-  height: auto;
-  border-radius: 9%;
-  position:absolute;
-  top: 26%;
-  left: 36.4%;
-}
-#titulombdos{
-  font-size: 0.7em;
-  font-family: lucida serif;
-  font-weight: 100;
-  position:absolute;
-  top: 41%;
-  left: 38.8%;
-  color: white;
-}
-
-#mbtres{
-  width: 10%;
-  height: auto;
-  border-radius: 9%;
-  position:absolute;
-  top: 26%;
-  left: 51.8%;
-}
-#titulombtres{
-  font-size: 0.7em;
-  font-family: lucida serif;
-  font-weight: 100;
-  position:absolute;
-  top: 40.5%;
-  left: 51.6%;
-  color: white;
-}
-
-#mbcuatro{
-  width: 10%;
-  height: auto;
-  border-radius: 9%;
-  position:absolute;
-  top: 26%;
-  left: 66.4%;
-}
-#titulombcuatro{
-  font-size: 0.7em;
-  font-family: lucida serif;
-  font-weight: 100;
-  position:absolute;
-  top: 39%;
-  left: 68.8%;
-  color: white;
-}
-
-#mbcinco{
-  width: 10%;
-  height: auto;
-  border-radius: 9%;
-  position:absolute;
-  top: 26%;
-  left: 82%;
-}
-
-#titulombcinco{
-  font-size: 0.7em;
-  font-family: lucida serif;
-  font-weight: 100;
-  position:absolute;
-  top: 43.9%;
-  left: 81%;
-  color: white;
-}
-
-#mbseis{
-  width: 10%;
-  height: auto;
-  border-radius: 9%;
-  position:absolute;
-  top: 61%;
-  left: 35%;
-}
-
-#titulombseis{
-  font-size: 0.7em;
-  font-family: lucida serif;
-  font-weight: 100;
-  position:absolute;
-  top: 79.7%;
-  left: 35.4%;
-  color: white;
-}
-
-#mbsiete{
-  width: 10%;
-  height: auto;
-  border-radius: 9%;
-  position:absolute;
-  top: 61%;
-  left: 52%;
-}
-
-#titulombsiete{
-  font-size: 0.7em;
-  font-family: lucida serif;
-  font-weight: 100;
-  position:absolute;
-  top: 79.7%;
-  left: 54.6%;
-  color: white;
-}
-
-#mbocho{
-  width: 10%;
-  height: auto;
-  border-radius: 9%;
-  position:absolute;
-  top: 61%;
-  left: 69.7%;
-}
-
-#titulombocho{
-  font-size: 0.7em;
-  font-family: lucida serif;
-  font-weight: 100;
-  position:absolute;
-  top: 79.7%;
-  left: 71.5%;
-  color: white;
-}
-
-#mbnueve{
-  width: 10%;
-  height: auto;
-  border-radius: 9%;
-  position:absolute;
-  top: 61%;
-  left: 19%;
-}
-
-#titulombnueve{
-  font-size: 0.7em;
-  font-family: lucida serif;
-  font-weight: 100;
-  position:absolute;
-  top: 79.7%;
-  left: 21.4%;
-  color: white;
-}
-
-
 /*quinta*/
 
 #ventanaq {
@@ -1273,175 +1104,62 @@ h2{
   top: 11%;
   left: 6%;
 }
+/* warning */
 
-
-#wuno{
-  width: 10%;
-  height: auto;
-  border-radius: 9%;
-  position:absolute;
-  top: 26%;
-  left: 21%;
-}
-
-#titulowuno{
-  font-size: 0.7em;
-  font-family: lucida serif;
-  font-weight: 100;
-  position:absolute;
-  top: 41%;
-  left: 21.7%;
-  color: white;
+#contenedor-warning{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1% 1%;
+    justify-content:space-around;
+    align-content: stretch;
+    align-items: baseline;
+    flex-direction: row;
+    padding: 14% 16%;
 }
 
-#wdos{
-  width: 10%;
-  height: auto;
-  border-radius: 9%;
-  position:absolute;
-  top: 26%;
-  left: 36.4%;
-}
-#titulowdos{
-  font-size: 0.7em;
-  font-family: lucida serif;
-  font-weight: 100;
-  position:absolute;
-  top: 41%;
-  left: 38.8%;
-  color: white;
+.warningv{
+    text-decoration: none;
+    color: white;
+    max-height: 82px;
+    width: auto;
+    border-radius: 7%;
 }
 
-#wtres{
-  width: 10%;
-  height: auto;
-  border-radius: 9%;
-  position:absolute;
-  top: 26%;
-  left: 51.8%;
-}
-#titulowtres{
-  font-size: 0.7em;
-  font-family: lucida serif;
-  font-weight: 100;
-  position:absolute;
-  top: 40.5%;
-  left: 51.6%;
-  color: white;
+.titulowarningv{
+    text-decoration: none;
+    color: white;
+    margin: 1em;
 }
 
-#wcuatro{
-  width: 10%;
-  height: auto;
-  border-radius: 9%;
-  position:absolute;
-  top: 26%;
-  left: 66.4%;
-}
-#titulowcuatro{
-  font-size: 0.7em;
-  font-family: lucida serif;
-  font-weight: 100;
-  position:absolute;
-  top: 39%;
-  left: 68.8%;
-  color: white;
+/*warning*/
+
+/*maria*/
+#contenedor-maria{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1% 1%;
+    justify-content:space-around;
+    align-content: stretch;
+    align-items: baseline;
+    flex-direction: row;
+    padding: 14% 16%;
 }
 
-#wcinco{
-  width: 10%;
-  height: auto;
-  border-radius: 9%;
-  position:absolute;
-  top: 26%;
-  left: 82%;
+.mariav{
+    text-decoration: none;
+    color: white;
+    max-height: 82px;
+    width: auto;
+    border-radius: 7%;
 }
 
-#titulowcinco{
-  font-size: 0.7em;
-  font-family: lucida serif;
-  font-weight: 100;
-  position:absolute;
-  top: 43.9%;
-  left: 81%;
-  color: white;
+.titulomariav{
+    text-decoration: none;
+    color: white;
+    margin: 1em;
 }
+/*maria*/
 
-#wseis{
-  width: 10%;
-  height: auto;
-  border-radius: 9%;
-  position:absolute;
-  top: 61%;
-  left: 35%;
-}
-
-#titulowseis{
-  font-size: 0.7em;
-  font-family: lucida serif;
-  font-weight: 100;
-  position:absolute;
-  top: 79.7%;
-  left: 35.4%;
-  color: white;
-}
-
-#wsiete{
-  width: 10%;
-  height: auto;
-  border-radius: 9%;
-  position:absolute;
-  top: 61%;
-  left: 52%;
-}
-
-#titulowsiete{
-  font-size: 0.7em;
-  font-family: lucida serif;
-  font-weight: 100;
-  position:absolute;
-  top: 79.7%;
-  left: 54.6%;
-  color: white;
-}
-
-#wocho{
-  width: 10%;
-  height: auto;
-  border-radius: 9%;
-  position:absolute;
-  top: 61%;
-  left: 69.7%;
-}
-
-#titulowocho{
-  font-size: 0.7em;
-  font-family: lucida serif;
-  font-weight: 100;
-  position:absolute;
-  top: 79.7%;
-  left: 71.5%;
-  color: white;
-}
-
-#wnueve{
-  width: 10%;
-  height: auto;
-  border-radius: 9%;
-  position:absolute;
-  top: 61%;
-  left: 19%;
-}
-
-#titulownueve{
-  font-size: 0.7em;
-  font-family: lucida serif;
-  font-weight: 100;
-  position:absolute;
-  top: 79.7%;
-  left: 21.4%;
-  color: white;
-}
 
 /* inferior*/
 
@@ -3148,6 +2866,220 @@ h2{
 }
 
 #pcircutreso{
+  width: 3.4%;
+  height:5%;
+  background-color: rgb(22, 122, 22);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 92.5%;
+  right: 81.6%;
+}
+
+
+/* otro */
+
+#pestañam{
+    width: 58vw;
+    height: 67vh;
+    position: absolute;
+    top: 9%;
+    left: 30%;
+    background: #a76f15f5;
+    display: none;
+    border-radius: 4%;
+}
+
+#notasm{
+  position: absolute;
+  max-height: 47%;
+  width: auto;
+  top: 34%;
+  left:30%;
+  border-radius: 8%;
+  box-shadow: 2px 2px 20px rgba(154, 105, 72, 0.979);
+  
+}
+
+#emum{
+  font-size: 1.2em;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left:2%;
+  color: rgb(184, 159, 159);
+  font-weight: 100;
+}
+
+#emdm{
+  font-size: 1.1em;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  position: absolute;
+  top: 29%;
+  left:5%;
+  color: rgb(184, 159, 159);
+  font-weight: 100;
+}
+#emtm{
+  font-size: 1em;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  position: absolute;
+  top: 39%;
+  left:1%;
+  color: rgb(184, 159, 159);
+  font-weight: 100;
+}
+#emcm{
+  font-size: 1em;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  position: absolute;
+  top: 67%;
+  left:20%;
+  color: rgb(184, 159, 159);
+  font-weight: 200;
+  transform: rotate(-90deg);
+}
+
+#emcim{
+  font-size: 1.1em;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  position: absolute;
+  top: 56%;
+  left:2%;
+  color: rgb(184, 159, 159);
+  font-weight: 100;
+}
+#emsm{
+  font-size: 0.7em;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  position: absolute;
+  top: 86%;
+  left:2%;
+  color: rgb(184, 159, 159);
+  font-weight: 100;
+}
+
+#emsim{
+  font-size: 1.6em;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  position: absolute;
+  top: 69%;
+  left:2.7%;
+  color: rgb(184, 159, 159);
+  font-weight: 200;
+}
+
+#emdim{
+  font-size: 1em;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
+  position: absolute;
+  top: 24%;
+  right:2%;
+  color: rgb(184, 159, 159);
+  font-weight: 100;
+}
+
+#emonm{
+  font-size: 1.5em;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  position: absolute;
+  top: 54%;
+  right:17%;
+  color: rgb(184, 159, 159);
+  font-weight: 100;
+  transform: rotate(90deg);
+}
+
+#emdom{
+  font-size: 0.8em;
+  font-family:'Courier New', Courier, monospace;
+  text-align: center;
+  position: absolute;
+  top: 64%;
+  right:2%;
+  color: rgb(184, 159, 159);
+  font-weight: 100;
+}
+
+#emtrm{
+  font-size: 0.8em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  position: absolute;
+  top: 44%;
+  right:3%;
+  color: rgb(184, 159, 159);
+  font-weight: 100;
+}
+
+#emcam{
+  font-size: 1.4em;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  position: absolute;
+  top: 91%;
+  right:3%;
+  color: rgb(184, 159, 159);
+  font-weight: 100;
+}
+
+
+#pbordebuscadorm{
+  width:768px;
+  height:40px;
+  background-color:#965526f5;
+  position:absolute;
+  top: 10%;
+  left: 0.1%;
+}
+
+#pbuscadorm{
+  width: 40%;
+  height: 4.6%;
+  border-radius:20px;
+  background-color:rgba(157, 102, 51, 0.979);
+  position:absolute;
+  top:11.8%;
+  left: 33%; 
+}
+
+#bordpm{
+  width: 100%;
+  height: 10%;
+  background-color: #ab681cf5;
+  position: absolute;
+  top: 0.1%;
+}
+
+#pcirculoo{
+  width:3.4%;
+  height: 5%;
+  background-color: rgb(109, 12, 12);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 92.5%;
+  right: 92%;
+}
+
+#pcircudosm{
+  width:3.4%;
+  height:5%;
+  background-color: rgb(196, 196, 49);
+  border-radius: 50%;
+  position:absolute;
+  bottom: 92.5%;
+  right: 87%;
+}
+
+#pcircutresm{
   width: 3.4%;
   height:5%;
   background-color: rgb(22, 122, 22);
