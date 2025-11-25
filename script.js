@@ -29,6 +29,9 @@ const buno = document.querySelector("#buno");
 const bdos = document.querySelector("#bdos");
 const btres = document.querySelector("#btres");
 const bcuatro = document.querySelector("#bcuatro");
+const bcinco = document.querySelector("#bcinco");
+const bseis = document.querySelector("#bseis");
+const bocho = document.querySelector("#bocho");
 
 const pestaña = document.getElementById("pestaña");
 const titupesta = document.getElementById("titupesta");
@@ -49,6 +52,150 @@ document.body.addEventListener('click', (evento) => {
         pestañabierta = false;
     }
 });
+const pestañad = document.getElementById("pestañad");
+const titupestad = document.getElementById("titupestad");
+
+let pestañabiertad = false;
+
+bdos.addEventListener('click', (elemento) => {
+    elemento.stopPropagation();
+    titupestad.innerText = "idontwannabeyouanymore";
+    pestañad.style.display = "block";
+    pestañabiertad = true;
+});
+
+document.body.addEventListener('click', (evento) => {
+    if(!pestañabiertad) return;
+    if(!pestañad.contains(evento.target)) {
+        pestañad.style.display = "none";
+        pestañabiertad = false;
+    }
+});
+
+const pestañat = document.getElementById("pestañat");
+const titupestat = document.getElementById("titupestat");
+
+let pestañabiertat = false;
+
+btres.addEventListener('click', (elemento) => {
+    elemento.stopPropagation();
+    titupestat.innerText = "My boy";
+    pestañat.style.display = "block";
+    pestañabiertat = true;
+});
+
+document.body.addEventListener('click', (evento) => {
+    if(!pestañabiertat) return;
+    if(!pestañat.contains(evento.target)) {
+        pestañat.style.display = "none";
+        pestañabiertat = false;
+    }
+});
+
+const pestañac = document.getElementById("pestañac");
+const titupestac = document.getElementById("titupestac");
+
+let pestañabiertac = false;
+
+bcuatro.addEventListener('click', (elemento) => {
+    elemento.stopPropagation();
+    titupestac.innerText = "Watch";
+    pestañac.style.display = "block";
+    pestañabiertac = true;
+});
+
+document.body.addEventListener('click', (evento) => {
+    if(!pestañabiertac) return;
+    if(!pestañac.contains(evento.target)) {
+        pestañac.style.display = "none";
+        pestañabiertac = false;
+    }
+});
+
+
+const pestañaci = document.getElementById("pestañaci");
+const titupestaci = document.getElementById("titupestaci");
+
+let pestañabiertaci = false;
+
+bcinco.addEventListener('click', (elemento) => {
+    elemento.stopPropagation();
+    titupestaci.innerText = "My boy";
+    pestañaci.style.display = "block";
+    pestañabiertaci = true;
+});
+
+document.body.addEventListener('click', (evento) => {
+    if(!pestañabiertaci) return;
+    if(!pestañaci.contains(evento.target)) {
+        pestañaci.style.display = "none";
+        pestañabiertaci = false;
+    }
+});
+
+
+const pestañas = document.getElementById("pestañas");
+const titupestas = document.getElementById("titupestas");
+
+let pestañabiertas = false;
+
+bseis.addEventListener('click', (elemento) => {
+    elemento.stopPropagation();
+    titupestas.innerText = "Bellyache";
+    pestañas.style.display = "block";
+    pestañabiertas = true;
+});
+
+document.body.addEventListener('click', (evento) => {
+    if(!pestañabiertas) return;
+    if(!pestañas.contains(evento.target)) {
+        pestañas.style.display = "none";
+        pestañabiertas = false;
+    }
+});
+
+
+const pestañasi = document.getElementById("pestañasi");
+const titupestasi = document.getElementById("titupestasi");
+
+let pestañabiertasi = false;
+
+bsiete.addEventListener('click', (elemento) => {
+    elemento.stopPropagation();
+    titupestasi.innerText = "Ocean eyes";
+    pestañasi.style.display = "block";
+    pestañabiertasi = true;
+});
+
+document.body.addEventListener('click', (evento) => {
+    if(!pestañabiertasi) return;
+    if(!pestañasi.contains(evento.target)) {
+        pestañasi.style.display = "none";
+        pestañabiertasi = false;
+    }
+});
+
+
+const pestañao = document.getElementById("pestañao");
+const titupestao = document.getElementById("titupestao");
+
+let pestañabiertao = false;
+
+bocho.addEventListener('click', (elemento) => {
+    elemento.stopPropagation();
+    titupestao.innerText = "Ocean eyes";
+    pestañao.style.display = "block";
+    pestañabiertao = true;
+});
+
+document.body.addEventListener('click', (evento) => {
+    if(!pestañabiertao) return;
+    if(!pestañao.contains(evento.target)) {
+        pestañao.style.display = "none";
+        pestañabiertao = false;
+    }
+});
+
 
 
 /*segunda ventana*/

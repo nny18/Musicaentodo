@@ -1,5 +1,5 @@
 body {
-    background-image: url("../assets/fondocc.jpg");
+    background-image: url("../Musicaentodo/assets/fondocompuc.jpg");
     background-repeat: no-repeat;
     background-position-y: 21%;
     background-size: cover;
@@ -8,24 +8,19 @@ body {
 
 #boton {
   font-size: 1.3em;
-  background-color: #d5a4d56c;
-  margin-bottom: 1em;
-  border-style:dotted;
-  border-color: purple;
+  background-color: transparent;
+  margin-bottom: none;
+  border-style:none;
   cursor: pointer;
   transition-duration: 0.4s;
   cursor: pointer;
   position: absolute;
-  bottom: 34%;
+  bottom: 14.2%;
   right: 45%;
 }
 
 a:link{
     text-decoration: none;
     display:inline-block;
-    color: purple;
-}
-
-#compu {
-    background-image: url("https://i.pinimg.com/1200x/bc/d3/5b/bcd35bf8de4bc307c36ac6f7c0979af3.jpg");
+    color: aliceblue;
 }
